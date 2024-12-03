@@ -18,22 +18,22 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#home" className="hover:text-gray-300">
+              <a href="/" className="hover:text-gray-300">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="hover:text-gray-300">
+              <a href="/about" className="hover:text-gray-300">
                 About
               </a>
             </li>
             <li>
-              <a href="#services" className="hover:text-gray-300">
+              <a href="/service" className="hover:text-gray-300">
                 Services
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-gray-300">
+              <a href="/contactus" className="hover:text-gray-300">
                 Contact Us
               </a>
             </li>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         {/* Social Media Links */}
-        <div>
+        {/* <div>
           <h3 className="text-xl font-bold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
             <a
@@ -82,7 +82,7 @@ const Footer = () => {
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Copyright Section */}
