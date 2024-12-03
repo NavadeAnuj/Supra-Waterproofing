@@ -1,5 +1,9 @@
 import React from "react";
 import img from "./img.jpg";
+import ServicePage from "../Service/Service";
+import AboutPage from "../About/About";
+import ContactUs from "../Contact Us/ContactUs";
+import Footer from "../../Component/Footer/Footer";
 const HomePage = () => {
   return (
     <div
@@ -28,6 +32,10 @@ const HomePage = () => {
           Explore Our Services
         </a>
       </div>
+      <ServicePage />
+      <AboutPage />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };
