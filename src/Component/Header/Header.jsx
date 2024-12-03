@@ -4,8 +4,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-blue-600 text-white">
-      <div className="container mx-auto flex justify-between items-center p-4">
+    <header className="bg-blue-600 text-white relative z-50">
+      <div className="container mx-auto flex justify-between items-center p-4 relative">
         {/* Logo */}
         <div className="text-lg font-bold">
           <a href="/" className="hover:text-gray-300">
@@ -15,7 +15,7 @@ const Header = () => {
 
         {/* Hamburger Menu (Mobile View) */}
         <button
-          className="block md:hidden focus:outline-none"
+          className="block md:hidden focus:outline-none z-50"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-label="Toggle menu"
         >
@@ -56,7 +56,7 @@ const Header = () => {
         <nav
           className={`absolute top-16 left-0 w-full bg-blue-600 text-white shadow-md md:static md:w-auto md:shadow-none md:flex md:items-center ${
             isMenuOpen ? "block" : "hidden"
-          } transition-all duration-300`}
+          } transition-all duration-300 z-40`}
         >
           <ul className="flex flex-col md:flex-row md:space-x-6 md:items-center">
             <li>
