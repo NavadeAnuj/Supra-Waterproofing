@@ -92,19 +92,25 @@ const ContactUs = () => {
               </li>
               <li>
                 <strong>Address:</strong> <br />
-                123 Waterproof Lane, <br />
-                Cityville, ST 56789
+                123 Vejalpur Lane, <br />
+                Ahmedabad, Gujarat.
               </li>
             </ul>
             <h3 className="text-lg font-semibold mt-6 mb-2">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gray-300">
+              <a href="https://www.google.com" className="hover:text-gray-300">
                 🌐 Website
               </a>
-              <a href="#" className="hover:text-gray-300">
+              <a
+                href="https://www.facebook.com"
+                className="hover:text-gray-300"
+              >
                 📘 Facebook
               </a>
-              <a href="#" className="hover:text-gray-300">
+              <a
+                href="https://www.instagram.com"
+                className="hover:text-gray-300"
+              >
                 📸 Instagram
               </a>
             </div>
