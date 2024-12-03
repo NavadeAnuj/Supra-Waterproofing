@@ -26,7 +26,7 @@ const HomePage = () => {
           efficient, and durable services for all your needs.
         </p>
         <a
-          href="#services"
+          href="/service"
           className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-700 text-white text-lg font-semibold rounded-full shadow-lg transition-all animate-bounce"
         >
           Explore Our Services
